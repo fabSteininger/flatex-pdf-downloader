@@ -1,4 +1,4 @@
-# Flatex PDF Clicker
+# Flatex PDF Clicker (Firefox)
 
 **Download all open entries in the Flatex Mailbox (Postfach) in one batch**
 
