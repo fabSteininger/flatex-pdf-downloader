@@ -2,7 +2,7 @@
 
 **Download all open entries in the Flatex Mailbox (Postfach) in one batch**
 
-This extension allows you to quickly and efficiently download all your open documents from the Flatex Mailbox (Postfach) without manually opening each one. It works directly on the Flatex overview pages and automates the process, saving time and effort.
+This extension allows you to quickly and efficiently download all your open documents from the Flatex Mailbox (Postfach) without manually opening each one. It works directly on the Flatex next UI and automates the process, saving time and effort.
 
 ## Key Features
 - Automatically clicks all open document entries in your Flatex Mailbox.
