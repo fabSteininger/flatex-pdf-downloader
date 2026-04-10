@@ -6,22 +6,21 @@
 This extension allows you to quickly and efficiently download all your open documents from the Flatex Mailbox (Postfach) without manually opening each one. It works directly on the Flatex next UI and automates the process, saving time and effort.
 
 ## Key Features
-- Automatically clicks all open document entries in your Flatex Mailbox.
-- Triggers PDF downloads directly, reducing the need to view each document manually.
-- Supports both Flatex Austria (`flatex.at`) and Flatex Germany (`flatex.de`) overview pages.
-- Displays a visual overlay when all entries have been processed, confirming completion.
+- **Automated Downloads**: Automatically clicks all document entries and triggers PDF downloads.
+- **Smart Tab Management**: Automatically closes temporary tabs opened during the download process (e.g., PDF viewer tabs or interstitial loading pages).
+- **Progress Tracking**: Shows a real-time progress overlay so you know exactly how many documents are being processed.
+- **Browser Compatibility**: Works even if your browser is set to "Open PDFs in Firefox" instead of "Download PDFs".
+- **Multi-Region Support**: Supports both Flatex Austria (`flatex.at`) and Flatex Germany (`flatex.de`).
 
 ## Important Notes
-1. **Pop-ups must be enabled** in your browser. Flatex generates temporary pop-ups (`wait.html`) during PDF generation. The extension cannot automatically close these tabs.
-2. **PDF download settings** in Flatex should be configured to download PDFs directly instead of opening them in the browser viewer.
-3. The last document’s `wait.html` tab may remain open due to browser security restrictions; it may need to be closed manually.
-4. You must be logged into your Flatex account for the extension to work correctly.
+1. **Pop-ups must be enabled**: While the extension handles most things, your browser might still block the initial pop-up attempt. Please ensure pop-ups are allowed for `konto.flatex.at` or `konto.flatex.de`.
+2. **Login Required**: You must be logged into your Flatex account and navigate to the Mailbox (Postfach) / Document Archive page.
 
 ## Usage Instructions
-1. Open the Flatex overview page containing your Mailbox (Postfach).
+1. Open the Flatex page containing your Mailbox (Postfach) or Document Archive.
 2. Click the extension toolbar button.
-3. Wait a few seconds while the extension automatically clicks all entries and initiates downloads.
-4. A confirmation overlay will appear when all documents have been processed.
+3. A progress overlay will appear. Wait until the process is finished.
+4. Your PDFs will be in your default download folder.
 
 ## Privacy
 - The extension does **not store credentials** or personal data.
